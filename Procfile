@@ -1,1 +1,1 @@
-web: gunicorn hng.wsgi --log-file -
+web: gunicorn hng.wsgi:application --log-file -
